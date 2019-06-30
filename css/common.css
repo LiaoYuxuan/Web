@@ -1,0 +1,179 @@
+@font-face {
+	font-family: 'Montserrat Bold';
+	src: url('../fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+	font-family: 'Montserrat Regular';
+	src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+.public-header{
+	height: 178px;
+	background: #ffffff;
+}
+
+.public-header .header-logo{
+	float: left;
+	margin-top: 68px;
+}
+
+.public-header .header-logo a{
+	height: 24px;
+	width: 124px;
+	background: url("../img/index-header-logo.png");
+}
+
+.public-header .header-nav{
+	float: right;
+	font-size: 14px;
+}
+
+.public-header .header-nav .item{
+	float: left;
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+.public-header .header-nav a{
+	color: #3b3b3b;
+}
+
+.public-container{
+	position: relative;
+	margin: 0 auto;
+	width:1100px;
+}
+
+.public-footer{
+	height: 443px;
+	padding-top: 54px;
+	background: #f6f6f6;
+}
+/*将浮动元素居中的方法
+.public-footer .footer-logo{
+	float: left;
+	height: 110px;
+	width: 236px;
+	margin-left:50%;
+	position:relative;
+	left:-118px;
+	background: url("../img/index-footer-logo.png");
+}*/
+
+.public-footer .footer-logo{
+	height: 110px;
+	width: 236px;
+	margin: 0 auto;
+	background: url("../img/index-footer-logo.png");
+}
+
+.public-footer .footer-title{
+	height: 62px;
+	width: 133px;
+	padding-top: 37px;
+	margin: 0 auto;
+}
+
+/*注意字句居中的方法*/
+.public-footer .footer-title .footer-title-text{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: Montserrat Bold;
+	text-align:center;
+	letter-spacing:3px;
+}
+
+.public-footer .footer-title .footer-title-line{
+	width: 50px;
+	height: 3px;
+	margin-top: 18px;
+	background: #f4c4c7;
+	margin-left:50%;
+	position:relative;
+	left:-25px;
+}
+
+.public-footer .footer-email{
+	width:440px;
+	height:49px;
+	background: #ffffff;
+	margin-top: 30px;
+	box-shadow: 5px 5px 20px #ebebeb;
+	margin-left:50%;
+	position:relative;
+	left:-220px;
+}
+
+.public-footer .footer-email-line{
+	float: left;
+	width:1px;
+	height:49px;
+	position:relative;
+	background:#ebebeb;
+}
+
+.public-footer .footer-input{
+	float: left;
+	width:348px;
+	height:49px;
+	margin-left: 19px;
+	border: 0px; 
+	outline: none;
+	font-size: 12px;
+	color: #a4a4a4;
+	font-family: Montserrat Regular;
+}
+
+.public-footer .footer-email-logo{
+	float: left;
+	margin-top: 17px;
+	margin-left: 26px;
+}
+
+.public-footer .footer-email-logo a{
+	width: 18px;
+	height: 15px;
+	background: url('../img/index-footer-email-logo.png');
+}
+
+.public-footer .footer-social{
+	height: 68px;
+	width: 660px;
+	margin: 0 auto;
+/*	float: left;*/
+}
+
+.public-footer .footer-social .item{
+	float: left;
+	margin-top: 56px;
+	margin-left: 50px;
+}
+
+.public-footer .footer-social a{
+	color: #000000;
+	font-family: Montserrat Bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.footer-copyright{
+	height: 51px;
+	padding-top: 39px;
+	margin: 0 auto;
+}
+
+.footer-copyright .footer-copyright-text{
+	font-size: 10px;
+	font-family: Montserrat Regular;
+	color: #a2a2a2;
+	text-align:center;
+}
+
+.footer-copyright .footer-copyright-text a{
+	font-size: 11px;
+	font-family: Montserrat Bold;
+	color: #000000;
+	display: inline-block;
+}
