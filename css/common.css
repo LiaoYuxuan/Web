@@ -8,6 +8,98 @@
 	src: url('../fonts/Montserrat-Regular.ttf');
 }
 
+@font-face {
+	font-family: 'PlayfairDisplay Regular';
+	src: url('../fonts/Playfair Display.ttf');
+}
+
+/*1900*7978   360浏览器*/
+@media screen and (min-width: 1601px) {
+	.index-page-left{height: 7978px;}
+	.index-body{height: 7978px;}
+	.index-page-right{height: 7978px;}
+	.footer-email-logo{top: 63.20%;}
+	.footer-social{width: 40%;left: 32.43%;}
+	.footer-copyright-text{left: 43.57%;}
+	.index-featurealbum-info-time{top: 12.10%;left: 11.60%;}
+	.index-featurealbum-bg-text{font-size: 16px;}
+	.index-featurealbum-bg-text a{font-size: 16px;}
+	.index-featurealbum-album-about{font-size: 14px;width: 31.26%;line-height:30px;}
+	.index-featurealbum-album-name{font-size: 50px;}
+	.index-featurealbum-album-song{font-size: 16px;}
+	.index-featurealbum-album-singer{font-size: 14px;}
+	.index-featurealbum-album-currenttime{font-size: 14px;}
+	.index-featurealbum-album-totalltime{font-size: 14px;}
+	.list-item-song{font-size: 16px;}
+	.list-item-singer{font-size: 14px;}
+	.list-item-time{font-size: 16px;}
+	.list-item-buy{font-size: 14px;}
+}
+/* css注释：设置了浏览器宽度不小于1601px时的样式*/
+
+/*1520*6382   chrome浏览器*/
+@media screen and (max-width: 1600px) {
+	.index-page-left{height: 6382px;}
+	.index-body{height: 6382px;}
+	.index-page-right{height: 6382px;}
+	.footer-email-logo{top: 63.20%;}
+	.footer-social{width: 40%;left: 32.43%;}
+	.footer-copyright-text{left: 43.57%;}
+	.index-featurealbum-info-time{top: 13.10%;left: 10.70%;}
+	.index-featurealbum-bg-text{font-size: 12px;}
+	.index-featurealbum-bg-text a{font-size: 12px;}
+	.index-featurealbum-album-about{font-size: 14px;width: 38.26%;line-height:30px;}
+	.index-featurealbum-album-name{font-size: 50px;}
+	.index-featurealbum-album-song{font-size: 14px;}
+	.index-featurealbum-album-singer{font-size: 12px;}
+	.index-featurealbum-album-currenttime{font-size: 12px;}
+	.index-featurealbum-album-totalltime{font-size: 12px;}
+	.list-item-song{font-size: 14px;}
+	.list-item-singer{font-size: 12px;}
+	.list-item-time{font-size: 14px;}
+	.list-item-buy{font-size: 12px;}
+}
+
+/*1200*5039    平板手机*/
+@media screen and (max-width: 980px) {
+	.index-page-left{height: 4115px;}
+	.index-body{height: 4115px;}
+	.index-page-right{height: 4115px;}
+	.footer-email-logo{top: 60.20%;}
+	.footer-social{width: 70%;left: 20%;}
+	.footer-copyright-text{left: 40.57%;}
+	.index-featurealbum-info-time{top: 16.10%;left: 8.90%;}
+	.index-featurealbum-bg-text{font-size: 8px;}
+	.index-featurealbum-bg-text a{font-size: 8px;}
+	.index-featurealbum-album-about{font-size: 8px;width: 38.26%;line-height:15px;}
+	.index-featurealbum-album-name{font-size: 30px;}
+	.index-featurealbum-album-song{font-size: 10px;}
+	.index-featurealbum-album-singer{font-size: 8px;}
+	.index-featurealbum-album-currenttime{font-size: 8px;}
+	.index-featurealbum-album-totalltime{font-size: 8px;}
+	.list-item-song{font-size: 10px;}
+	.list-item-singer{font-size: 8px;}
+	.list-item-time{font-size: 9px;}
+	.list-item-buy{font-size: 8px;}
+}
+/* 设置了浏览器宽度不大于1200px时的样式 */
+
+/*901*3783*/
+/* @media screen and (max-width: 901px) {
+	.index-page-left{height: 3783px;}
+	.index-body{height: 3783px;}
+	.index-page-right{height: 3783px;}
+}*/
+/* 设置了浏览器宽度不大于901px时的样式 */
+
+/*500*2100*/
+/*@media screen and (max-width: 500px) {
+	.index-page-left{height: 2100px;}
+	.index-body{height: 2100px;}
+	.index-page-right{height: 2100px;}
+}*/
+/* 设置了浏览器宽度不大于500px时的样式 */
+
 /*将浮动元素居中的方法
 .public-footer .footer-logo{
 	float: left;
@@ -20,249 +112,543 @@
 }*/
 
 .index-page-left{
-	/*width: 72px;*/
 	width: 5%;
-	height: 6339px;
-	padding-top: 143px;
 	background: #ffffff;
 	float: left;
+	position: relative;
 }
 
 .index-page-left .index-page-left-line{
-	width: 3px;
-	height: 50px;
-	margin-left: 33px;
+	width: 3.3%;
+	height: 0.63%;
+	position: absolute;
+	top: 2.3%;
+	left: 45.1%;
 	background: #f4c4c7;
 }
 
 .index-page-left .index-page-left-text{
-	width: 12px;
-	height: 206px;
-	margin-left: 29px;
-	margin-top: 16px;
-	background: url('../img/index-page-left-text.png');
+	width: 13.2%;
+	height: 2.6%;
+	position: absolute;
+	top: 3.1%;
+	left: 39.6%;
+}
+
+.index-page-left .index-page-left-text img{
+	width: 100%;
+	height: 100%;
 }
 
 .index-page-right{
-	/*width: 72px;*/
 	width: 5%;
-	height: 5704px;
 	background: #ffffff;
-	padding-top: 778px;
 	float: left;
-	margin-right: 0;
+	position: relative;
 }
 
 .index-page-right .index-page-right-text{
-	width: 12px;
-	height: 120px;
-	margin-left: 29px;
-	background: url('../img/index-page-right-text.png');
+	width: 13.2%;
+	height: 1.7%;
+	position: absolute;
+	top: 12.4%;
+	left: 39.6%;
 }
 
 .index-page-right .index-page-right-line{
-	width: 3px;
-	height: 50px;
-	margin-left: 35px;
-	margin-top: 20px;
+	width: 3.3%;
+	height: 0.63%;
+	position: absolute;
+	top: 14.4%;
+	left: 45.1%;
 	background: #f4c4c7;
 }
 
+.index-page-right .index-page-right-text img{
+	width: 100%;
+	height: 100%;
+}
+
 .index-body{
-	/*width: 1375px;*/
 	width: 90%;
-	height: 6482px;
 	float: left;
 }
 
 .public-header{
-	height: 143px;
 	/*width: 1375px;*/
+	height: 2.29%;
 	width: 100%;
 	float: left;
 	background: #ffffff;
+	position: relative;
 }
 
 .public-header .header-logo{
-	float: left;
-	margin-top: 53px;
+	position: absolute;
+	top: 38.2%;
+	left: 0%;
+	width: 7.2%;
+	height: 13.5%;
 }
 
 .public-header .header-logo a{
-	height: 24px;
-	width: 124px;
-	background: url("../img/index-header-logo.png");
+	display:inline-block;
+}
+
+.public-header .header-logo img{
+	width: 100%;
+	height:100%;
 }
 
 .public-header .header-menu{
-	float: right;
-	margin-top: 58px;
-	height: 15px;
-	width: 20px;
-	background: url('../img/index-header-menu.png');
+	position: absolute;
+	top: 41%;
+	right: 0%;
+	width: 1.45%;
+	height: 10.1%;
 }
 
-.public-container{
-	position: relative;
-	margin: 0 auto;
-	width:1100px;
+.public-header .header-menu a{
+	display:inline-block;
+}
+
+.public-header .header-menu img{
+	width: 100%;
+	height:100%;
 }
 
 /*这里的relative是为了使内部元素可以absulute*/
 .index-banner{
-	height: 818px;
+	/*height: 818px;*/
 	/*width: 1375px;*/
 	width: 100%;
+	height: 12.79%;
 	background: #ffffff;
 	float: left;
 	position: relative;
 }
 
 .index-banner .index-banner-bg{
-	height: 818px;
+	/*height: 818px;*/
 	/*width: 1375px;*/
+	height: 100%;
 	width: 100%;
+	/*background: url('../img/index-banner-bg.png');*/
 	overflow: hidden;
 }
 
+.index-banner .index-banner-bg img{
+	height: 100%;
+	width: 100%;
+}
+
 .index-banner .index-banner-text{
-	height: 178px;
-	width: 533px;
+	width: 39%;
+	height: 21.81%;
 	position: absolute;
-	top: 266px;
-	left: 50%;
-	margin-left: -266px;
-	background: url('../img/index-banner-text.png');
+	top: 32.7%;
+	left: 30.8%;
+}
+
+.index-banner .index-banner-text img{
+	height: 100%;
+	width: 100%;
 }
 
 .index-banner .index-banner-btn{
 	position: absolute;
-	top: 474px;
-	left: 50%;
-	margin-left: -20px;
-
+	top: 57.8%;
+	left: 48.3%;
+	height: 4.90%;
+	width: 2.91%;
 }
 
 .index-banner .index-banner-btn a{
-	width: 40px;
-	height: 40px;
-	background: url('../img/index-banner-btn.png');
+	display:inline-block;
+}
+
+.index-banner .index-banner-btn img{
+	width: 100%;
+	height:100%;
 }
 
 .index-featurealbum{
-	height: 746px;
+	/*height: 746px;*/
 	/*width: 1375px;*/
+	height: 11.689%;
 	width: 100%;
-	background: #f4c4c7;
+	background: #ffffff;
 	float: left;
+	position: relative;
+}
+
+.index-featurealbum .index-featurealbum-info-line{
+	width: 0.1743%;
+	height: 5.495%;
+	position: absolute;
+	top: 0%;
+	left: 14.29%;
+	background: #f4c4c7;
+}
+
+/*旋转字体需要先定位再旋转*/
+.index-featurealbum .index-featurealbum-info-time{ 
+	position: absolute;
+	font-size:12px;
+	font-family: Montserrat Regular;
+	display:block;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+} 
+
+.index-featurealbum .index-featurealbum-bg{
+	width: 29.11%;
+	height: 88.03%;
+	position: absolute;
+	top: -15.9%;
+	left: 15.85%;
+}
+
+.index-featurealbum .index-featurealbum-bg img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-featurealbum .index-featurealbum-bg-btn{
+	width: 8.192%;
+	height: 15.19%;
+	position: absolute;
+	top:41.70%;
+	left:26.79%;
+}
+
+.index-featurealbum .index-featurealbum-bg-btn a{
+	display:inline-block;
+}
+
+.index-featurealbum .index-featurealbum-bg-btn img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-featurealbum .index-featurealbum-bg-text{
+	font-family: Montserrat Regular;
+	position: absolute;
+	text-align:center;
+	color: #808080;
+	top: 59.59%;
+	left: 21.44%
+}
+
+.index-featurealbum .index-featurealbum-bg-text a{
+	font-family: Montserrat Bold;
+	color: #000000;
+	display: inline-block;
+	text-decoration:underline;
+}
+
+.index-featurealbum .index-featurealbum-right-line{
+	width: 2.905%;
+	height: 0.323%;
+	position: absolute;
+	top:9.806%;
+	left:49.09%;
+	background: #f4c4c7;
+}
+
+.index-featurealbum .index-featurealbum-album-name{
+	font-family: PlayfairDisplay Regular;
+	position: absolute;
+	top:5.32%;
+	left:53.28%;
+}
+
+.index-featurealbum .index-featurealbum-album-about{
+	font-family: Montserrat Regular;
+	position: absolute;
+	color: #808080;
+	top:16.16%;
+	left:49.09%;
+}
+
+.index-featurealbum .index-featurealbum-album-playboard{
+	position: absolute;
+	width: 35.67%;
+	height: 19.61%;
+	top: 29.20%;
+	left: 49.09%;
+}
+
+.index-featurealbum .index-featurealbum-album-playboard img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-featurealbum .index-featurealbum-album-progressbar{
+	position: absolute;
+	background: #f4c4c7;
+	width: 14.99%;
+	height: 0.323%;
+	top:38.40%;
+	left: 50.19%;
+}
+
+.index-featurealbum .index-featurealbum-album-song{
+	font-family: Montserrat Bold;
+	position: absolute;
+	top: 31.68%;
+	left: 51.84%;
+}
+
+.index-featurealbum .index-featurealbum-album-singer{
+	font-family: Montserrat Regular;
+	color: #808080;
+	position: absolute;
+	top: 34.68%;
+	left: 51.84%;
+}
+
+.index-featurealbum .index-featurealbum-album-currenttime{
+	position: absolute;
+	font-family: Montserrat Regular;
+	color: #000000;
+	top: 33.78%;
+	left: 76.06%;
+}
+
+.index-featurealbum .index-featurealbum-album-totalltime{
+	position: absolute;
+	font-family: Montserrat Regular;
+	color: #000000;
+	top: 33.78%;
+	left: 78.15%;
+}
+
+.index-featurealbum .index-featurealbum-album-before{
+	position: absolute;
+	width: 0.871%;
+	height: 2.37%;
+	top: 41.40%;
+	left: 55.09%;
+}
+
+.index-featurealbum .index-featurealbum-album-before a{
+	display:inline-block;
+}
+
+.index-featurealbum .index-featurealbum-album-before img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-featurealbum .index-featurealbum-album-play{
+	position: absolute;
+	width: 1.16%;
+	height: 2.37%;
+	top: 41.40%;
+	left: 66.12%;
+}
+
+.index-featurealbum .index-featurealbum-album-play a{
+	display:inline-block;
+}
+
+.index-featurealbum .index-featurealbum-album-play img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-featurealbum .index-featurealbum-album-next{
+	position: absolute;
+	width: 0.871%;
+	height: 2.37%;
+	top: 41.40%;
+	left: 76.64%;
+}
+
+.index-featurealbum .index-featurealbum-album-next a{
+	display:inline-block;
+}
+
+.index-featurealbum .index-featurealbum-album-next img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-featurealbum .index-featurealbum-album-list{
+	position: absolute;
+	width: 34.99%;
+	height: 45%;
+	top: 50.96%;
+	left: 49.09%;
+}
+
+.index-featurealbum .index-featurealbum-album-list .list-item{
+	width: 100%;
+	height: 25%;
+	position: relative;
+}
+
+.index-featurealbum .index-featurealbum-album-list .list-item-btn{
+	width: 9.59%;
+	height: 53.99%;
+	position: absolute;
+	top: 0%;
+	left: 1.5%;
+}
+
+.index-featurealbum .index-featurealbum-album-list .list-item img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-featurealbum .index-featurealbum-album-list .list-item .list-item-song{
+	font-family: Montserrat Regular;
+	position: absolute;
+	top: 5.74%;
+	left: 13.47%;
+}
+
+.index-featurealbum .index-featurealbum-album-list .list-item .list-item-singer{
+	font-family: Montserrat Regular;
+	color: #808080;
+	position: absolute;
+	top: 25.86%;
+	left: 13.47%;
+}
+
+.index-featurealbum .index-featurealbum-album-list .list-item .list-item-time{
+	font-family: Montserrat Regular;
+	position: absolute;
+	top: 7.66%;
+	left: 89.80%;
+}
+
+.index-featurealbum .index-featurealbum-album-list .list-item .list-item-buy{
+	font-family: Montserrat Regular;
+	color: #808080;
+	text-decoration:underline;
+	position: absolute;
+	top: 38.31%;
+	left: 87.47%;
+}
+
+.index-featurealbum .index-featurealbum-album-list .list-item .list-item-line{
+	width: 87.5%;
+	height: 0.957%;
+	position: absolute;
+	background: #ededed;
+	top: 67.05%;
+	left: 12.64%;
 }
 
 .index-biosection{
-	height: 767px;
+	/*height: 767px;*/
 	/*width: 1375px;*/
+	height: 12.018%;
 	width: 100%;
 	background: #a0f9bd;
 	float: left;
 }
 
+.index-biosection .index-biosection-bg{
+	height: 100%;
+	width: 100%;
+}
+
+.index-biosection .index-biosection-bg img{
+	width: 100%;
+	height: 100%;
+}
+
 .index-release{
-	height: 1388px;
+	/*height: 1388px;*/
 	/*width: 1375px;*/
 	width: 100%;
+	height: 21.748%;
 	background: #8d97fa;
 	float: left;
 }
 
 .index-blog{
-	height: 844px;
+	/*height: 844px;*/
 	/*width: 1375px;*/
 	width: 100%;
+	height: 13.224%;
 	background: #f7f498;
 	float: left;
 }
 
 .index-connect{
-	height: 929px;
+	/*height: 929px;*/
 	/*width: 1375px;*/
 	width: 100%;
+	height: 14.556%;
 	background: #fdc1f5;
 	float: left;
 }
 
 .index-instagram{
-	height: 321px;
+	/*height: 321px;*/
 	/*width: 1375px;*/
+	height: 5.029%;
 	width: 100%;
 	background: #f8a8dd;
 	float: left;
 }
 
 .public-footer{
-	height: 390px;
-	/*width: 1375px;*/
 	width: 100%;
-	padding-top: 43px;
+	height: 5.552%;
 	background: #f6f6f6;
 	float: left;
+	position: relative;
 }
 
 .public-footer .footer-logo{
-	height: 110px;
-	width: 236px;
-	margin: 0 auto;
-	background: url("../img/index-footer-logo.png");
+	height: 40.18%;
+	width: 13.71%;
+	position: absolute;
+	top: 12.2%;
+	left: 42.8%;
 }
 
-.public-footer .footer-title{
-	height: 62px;
-	width: 133px;
-	padding-top: 37px;
-	margin: 0 auto;
-}
-
-/*注意字句居中的方法*/
-.public-footer .footer-title .footer-title-text{
-	font-size: 14px;
-	text-transform: uppercase;
-	font-family: Montserrat Bold;
-	text-align:center;
-	letter-spacing:3px;
-}
-
-.public-footer .footer-title .footer-title-line{
-	width: 50px;
-	height: 3px;
-	margin-top: 18px;
-	background: #f4c4c7;
-	margin-left:50%;
-	position:relative;
-	left:-25px;
+.public-footer .footer-logo img{
+	width: 100%;
+	height: 100%;
 }
 
 .public-footer .footer-email{
-	width:440px;
-	height:49px;
+	/*width:420px;
+	height:49px;*/
+	width: 24.40%;
+	height: 11.06%;
 	background: #ffffff;
-	margin-top: 30px;
 	box-shadow: 5px 5px 20px #ebebeb;
-	margin-left:50%;
-	position:relative;
-	left:-220px;
+	position:absolute;
+	top: 59.8%;
+	left: 37.76%;
 }
 
 .public-footer .footer-email-line{
 	float: left;
-	width:1px;
-	height:49px;
-	position:relative;
+	width:0.23%;
+	height:100%;
+	position:absolute;
+	top: 0%;
+	left: 82.76%;
 	background:#ebebeb;
 }
 
 .public-footer .footer-input{
-	float: left;
-	width:348px;
-	height:49px;
-	margin-left: 19px;
+	position: absolute;
+/*	width:348px;
+	height:49px;*/
+	width: 78.34%;
+	height: 100%;
+	top: 0%;
+	left: 4.52%;
 	border: 0px; 
 	outline: none;
 	font-size: 12px;
@@ -270,29 +656,36 @@
 	font-family: Montserrat Regular;
 }
 
+/*由于移动端显示不正常，top属性放在了前面*/
 .public-footer .footer-email-logo{
-	float: left;
-	margin-top: 17px;
-	margin-left: 26px;
+	position: absolute;
+	left: 59.55%;
+	width: 1.04%;
+	height: 3.38%;
 }
 
 .public-footer .footer-email-logo a{
-	width: 18px;
-	height: 15px;
-	background: url('../img/index-footer-email-logo.png');
+	display:inline-block;
 }
 
+.public-footer .footer-email-logo img{
+	width: 100%;
+	height:100%;
+}
 
 .public-footer .footer-social{
-	height: 68px;
-	width: 660px;
-	margin: 0 auto;
+	height: 15.35%;
+	/*width: 40%;*/
+	/*width: 70%;*/
+	position: absolute;
+	top: 87.07%;
+	/*left: 32.43%;*/
+	/*left: 20%;*/
 }
 
 .public-footer .footer-social .item{
 	float: left;
-	margin-top: 56px;
-	margin-left: 50px;
+	margin-right: 6.57%;
 }
 
 .public-footer .footer-social a{
@@ -304,10 +697,9 @@
 }
 
 .footer-copyright{
-	height: 33px;
-	/*width: 1375px;*/
+	height: 0.78%;
 	width: 100%;
-	padding-top: 30px;
+	position: relative;
 	float: left;
 }
 
@@ -316,6 +708,9 @@
 	font-family: Montserrat Regular;
 	color: #a2a2a2;
 	text-align:center;
+	position: absolute;
+	top: 48.3%;
+	/*left: 43.57%;*/
 }
 
 .footer-copyright .footer-copyright-text a{
@@ -323,4 +718,5 @@
 	font-family: Montserrat Bold;
 	color: #000000;
 	display: inline-block;
+	text-decoration:underline;
 }

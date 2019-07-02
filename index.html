@@ -3,10 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<!-- 视口设置,只有在移动端才生效 -->
-	<!-- <meta name="viewport" content="width=1500, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+	<meta name="screen-orientation" content="landscape">
 	<!--需要自己手动放大-->
-	<meta name="viewport" content="width=1448, initial-scale=1.0"/>
-	<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- 	<meta name="viewport" content="width=1448, initial-scale=1.0"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"> -->
 	<!--出现右侧空白-->
 <!-- 	<meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -24,52 +25,102 @@
 <body style="width: 100%" min-width=“1200px”>
 	<div class="index-page-left">
 		<div class="index-page-left-line"></div>
-		<div class="index-page-left-text"></div>
+		<div class="index-page-left-text"><img src="img/index-page-left-text.png"></div>
 	</div>
 	<div class="index-body">
 		<div class="public-header">
-			<div class="header-logo"><a href=""></a></div>
-			<div class="header-menu"></div>
+			<div class="header-logo"><a href=""><img src="img/index-header-logo.png"></a></div>
+			<div class="header-menu"><a href=""><img src="img/index-header-menu.png"></a></div>
 		</div>
 		<div class="index-banner">
 			<!--此处用width="100%" height="100%"是为了满足不同浏览的图片大小需求-->
-			<div class="index-banner-bg"><img src="img/index-banner-bg.png" alt="banner" width="100%" height="100%"></div>
-			<div class="index-banner-text"></div>
-			<div class="index-banner-btn"><a href=""></a></div>
+			<!-- <div class="index-banner-bg"><img src="img/index-banner-bg1.png" alt="banner" width="100%" height="100%"></div> -->
+			<div class="index-banner-bg"><img src="img/index-banner-bg.png"></div>
+			<div class="index-banner-text"><img src="img/index-banner-text.png"></div>
+			<div class="index-banner-btn"><a href=""><img src="img/index-banner-btn.png"></a></div>
 		</div>
-		<div class="index-featurealbum"></div>
-		<div class="index-biosection"></div>
+		<div class="index-featurealbum">
+			<div class="index-featurealbum-info-line"></div>
+			<div class="index-featurealbum-info-time">POP - 03.01.2016</div>
+			<div class="index-featurealbum-bg"><img src="img/index-featurealbum-bg.png"></div>
+			<div class="index-featurealbum-bg-btn"><a href=""><img src="img/index-featurealbum-bg-btn.png"></a></div>
+			<div class="index-featurealbum-bg-text">Available for buy on <a href="">Itunes & Google Play</a></div>
+			<div class="index-featurealbum-right-line"></div>
+			<div class="index-featurealbum-album-name">Colind</div>
+			<div class="index-featurealbum-album-about">Oluptatum purus mi commodi, ridiculus ante, similique modi doloribus 
+			ea sem natoque, vestibulum proin ab ligula? Ridiculus repudiandae dictumst excepturi consequatur proident error, arcu. Aperiam augue....</div>
+			<div class="index-featurealbum-album-playboard"><img src="img/index-featurealbum-album-playboard.png"></div>
+			<div class="index-featurealbum-album-progressbar"></div>
+			<div class="index-featurealbum-album-song">Dangerous</div>
+			<div class="index-featurealbum-album-singer">Cowboys</div>
+			<div class="index-featurealbum-album-currenttime">1 : 25 </div>
+			<div class="index-featurealbum-album-totalltime">/ 02 : 30</div>
+			<div class="index-featurealbum-album-before"><a href=""><img src="img/index-featurealbum-album-before.png"></a></div>
+			<div class="index-featurealbum-album-play"><a href=""><img src="img/index-featurealbum-album-play.png"></a></div>
+			<div class="index-featurealbum-album-next"><a href=""><img src="img/index-featurealbum-album-next.png"></a></div>
+			<ul class="index-featurealbum-album-list">
+				<li class="list-item">
+					<div class="list-item-btn"><img src="img/index-featurealbum-album-list-btn.png"></div>
+					<div class="list-item-song">Dangerous</div>
+					<div class="list-item-singer">Cowboys</div>
+					<div class="list-item-time">02 : 30</div>
+					<div class="list-item-buy">Buy track</div>
+					<div class="list-item-line"></div>
+				</li>
+				<li class="list-item">
+					<div class="list-item-btn"><img src="img/index-featurealbum-album-list-btn.png"></div>
+					<div class="list-item-song">Nowadays disaster</div>
+					<div class="list-item-singer">Cowboys</div>
+					<div class="list-item-time">03 : 20</div>
+					<div class="list-item-buy">Buy track</div>
+					<div class="list-item-line"></div>
+				</li>
+				<li class="list-item">
+					<div class="list-item-btn"><img src="img/index-featurealbum-album-list-btn.png"></div>
+					<div class="list-item-song">Slow moon</div>
+					<div class="list-item-singer">Cowboys</div>
+					<div class="list-item-time">02 : 45</div>
+					<div class="list-item-buy">Buy track</div>
+					<div class="list-item-line"></div>
+				</li>
+				<li class="list-item">
+					<div class="list-item-btn"><img src="img/index-featurealbum-album-list-btn.png"></div>
+					<div class="list-item-song">not this time</div>
+					<div class="list-item-singer">Cowboys</div>
+					<div class="list-item-time">02 : 53</div>
+					<div class="list-item-buy">Buy track</div>
+					<div class="list-item-line"></div>
+				</li>
+			</ul>
+		</div>
+		<div class="index-biosection">
+			<div class="index-biosection-bg"><img src="img/index-biosection-bg.png"></div>
+		</div>
 		<div class="index-release"></div>
 		<div class="index-blog"></div>
 		<div class="index-connect"></div>
 		<div class="index-instagram"></div>
 		<div class="public-footer">
-			<div class="public-container clearfloat">
-				<div class="footer-logo"></div>
-				<div class="footer-title">
-					<div class="footer-title-text">newsletter</div>
-					<div class="footer-title-line"></div>
-				</div>
-				<div class="footer-email clearfloat">
-					<input class="footer-input" maxlength="45" type="text" value="Your email here..." onfocus="javascript:if(this.value=='Your email here...')this.value='';" onblur="javascript:if(this.value=='')this.value='Your email here...';"></input>
-					<div class="footer-email-line"></div>
-					<div class="footer-email-logo"><a href=""></a></div>
-				</div>
-				<ul class="footer-social clearfloat">
-					<li class="item"><a href="">facebook</a></li>
-					<li class="item"><a href="">twitter</a></li>
-					<li class="item"><a href="">instagram</a></li>
-					<li class="item"><a href="">tumbrl</a></li>
-					<li class="item"><a href="">soundcloud</a></li>
-				</ul>
+			<div class="footer-logo"><img src="img/index-footer-logo.png"></div>
+			<div class="footer-email clearfloat">
+				<input class="footer-input" maxlength="45" type="text" value="Your email here..." onfocus="javascript:if(this.value=='Your email here...')this.value='';" onblur="javascript:if(this.value=='')this.value='Your email here...';"></input>
+				<div class="footer-email-line"></div>
 			</div>
+			<div class="footer-email-logo"><a href=""><img src="img/index-footer-email-logo.png"></a></div>
+			<ul class="footer-social clearfloat">
+				<li class="item"><a href="">facebook</a></li>
+				<li class="item"><a href="">twitter</a></li>
+				<li class="item"><a href="">instagram</a></li>
+				<li class="item"><a href="">tumbrl</a></li>
+				<li class="item"><a href="">soundcloud</a></li>
+			</ul>
 		</div>
 		<div class="footer-copyright">
 			<div class="footer-copyright-text">© 2019 Born for music by <a href="">L.YX</a></div>
 		</div>
 	</div>
 	<div class="index-page-right">
-		<div class="index-page-right-text"></div>
+		<div class="index-page-right-text"><img src="img/index-page-right-text.png"></div>
 		<div class="index-page-right-line"></div>
 	</div>
 </body>
