@@ -34,6 +34,22 @@
 	.list-item-singer{font-size: 14px;}
 	.list-item-time{font-size: 16px;}
 	.list-item-buy{font-size: 14px;}
+	.index-biosection-text{font-size: 14px;	line-height:30px;}
+	.hbtn {font-size: 18px;top: 68.37%;left: 9.17%;}
+	.index-release-text{font-size: 16px;top: 17.60%;line-height: 30px;}
+	.release-song{top: 89.90%;font-size: 18px;}
+	.release-singer{font-size: 16px;}
+	.release-date{font-size: 18px;}
+	.news-title{font-size: 20px;}
+	.news-time{font-size: 16px;}
+	.news-about{font-size: 14px;}
+	.hbtn2 {font-size: 18px;top: 84.57%;left: 59.68%;}
+	.index-connect-about{font-size: 14px;line-height: 30px;}
+	.message-item-text{font-size: 18px;}
+	.message-text{font-size: 18px;}
+	.hbtn3{font-size: 18px;top: 80.57%;left: 34.78%;}
+	.index-connect-follow{font-size: 14px;left: 45.96%;}
+	.index-connect-follow a{font-size: 14px;}
 }
 /* css注释：设置了浏览器宽度不小于1601px时的样式*/
 
@@ -58,6 +74,22 @@
 	.list-item-singer{font-size: 12px;}
 	.list-item-time{font-size: 14px;}
 	.list-item-buy{font-size: 12px;}
+	.index-biosection-text{font-size: 10px;	line-height:25px;}
+	.hbtn {font-size: 14px;top: 65.37%;left: 6.87%;}
+	.index-release-text{font-size: 14px;top: 16.60%;line-height: 25px;}
+	.release-song{top: 90.00%;font-size: 14px;}
+	.release-singer{font-size: 12px;}
+	.release-date{font-size: 14px;}
+	.news-title{font-size: 16px;}
+	.news-time{font-size: 12px;}
+	.news-about{font-size: 10px;}
+	.hbtn2 {font-size: 14px;top: 84.57%;left: 57.08%;}
+	.index-connect-about{font-size: 18px;line-height: 25px;}
+	.message-item-text{font-size: 14px;}
+	.message-text{font-size: 14px;}
+	.hbtn3{font-size: 14px;top: 80.57%;left: 31.08%;}
+	.index-connect-follow{font-size: 10px;left: 44.96%;}
+	.index-connect-follow a{font-size: 10px;}
 }
 
 /*1200*5039    平板手机*/
@@ -81,6 +113,22 @@
 	.list-item-singer{font-size: 8px;}
 	.list-item-time{font-size: 9px;}
 	.list-item-buy{font-size: 8px;}
+	.index-biosection-text{font-size: 6px;	line-height:15px;}
+	.hbtn {font-size: 9px;top: 65.37%;left: -1%;}
+	.index-release-text{font-size: 8px;top: 16.60%;line-height: 15px;}
+	.release-song{top: 89.36%;font-size: 10px;}
+	.release-singer{font-size: 8px;}
+	.release-date{font-size: 10px;}
+	.news-title{font-size: 12px;}
+	.news-time{font-size: 8px;}
+	.news-about{font-size: 6px;}
+	.hbtn2 {font-size: 10px;top: 84.57%;left: 48.98%;}
+	.index-connect-about{font-size: 8px;line-height: 25px;}
+	.message-item-text{font-size: 10px;}
+	.message-text{font-size: 10px;}
+	.hbtn3{font-size: 10px;top: 80.57%;left: 24.08%;}
+	.index-connect-follow{font-size: 6px;left: 44.96%;}
+	.index-connect-follow a{font-size: 6px;}
 }
 /* 设置了浏览器宽度不大于1200px时的样式 */
 
@@ -397,6 +445,7 @@
 .index-featurealbum .index-featurealbum-album-song{
 	font-family: Montserrat Bold;
 	position: absolute;
+	text-transform: uppercase;
 	top: 31.68%;
 	left: 51.84%;
 }
@@ -506,6 +555,7 @@
 .index-featurealbum .index-featurealbum-album-list .list-item .list-item-song{
 	font-family: Montserrat Regular;
 	position: absolute;
+	text-transform: uppercase;
 	top: 5.74%;
 	left: 13.47%;
 }
@@ -529,9 +579,10 @@
 	font-family: Montserrat Regular;
 	color: #808080;
 	text-decoration:underline;
+	text-transform: uppercase;
 	position: absolute;
 	top: 38.31%;
-	left: 87.47%;
+	left: 83.90%;
 }
 
 .index-featurealbum .index-featurealbum-album-list .list-item .list-item-line{
@@ -550,6 +601,7 @@
 	width: 100%;
 	background: #a0f9bd;
 	float: left;
+	position: relative;
 }
 
 .index-biosection .index-biosection-bg{
@@ -562,6 +614,137 @@
 	height: 100%;
 }
 
+.index-biosection .index-biosection-title{
+	width: 19.23%;
+	height: 18.18%;
+	position: absolute;
+	top: 22.15%;
+	left: 15.51%;
+}
+
+.index-biosection .index-biosection-title img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-biosection .index-biosection-text{
+	font-family: Montserrat Regular;
+	width: 44.46%;
+	position: absolute;
+	top: 45.97%;
+	left: 3.66%;
+	text-align: center;
+}
+
+/*用btn标签写的按钮*/
+/*.index-biosection .index-biosection-btn{
+	position: absolute;
+	top: 61.23%;
+	left: 19.17%;
+	width: 12.13%;
+	height: 7.25%;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	box-shadow:0 0 10px #d4d4d4;
+	background: #f4c4c7;
+	font-family: Montserrat Regular;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.index-biosection-btn:hover {
+	background-color:#f3afb4;
+}*/
+/*active是点击之后的状态*/
+/*.index-biosection-btn:active {
+	position: absolute;
+	top: 61.23%;
+	left: 19.17%;
+}
+*/
+
+/*hbtn是公共类，可以反复使用*/
+.index-biosection .hbtn {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  padding-top: 1.28%;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  border-radius:10px;
+  letter-spacing: 1px;
+  font-family: Montserrat Regular;
+  text-transform: uppercase;
+  color: #000000;
+  white-space: nowrap;
+  z-index: 0;
+  box-shadow:0 0 10px #d4d4d4;
+  background: #f4c4c7;
+  width: 10.62%;
+  height: 4.26%;
+}
+
+.index-biosection .index-biosection-btn:before {
+  position: absolute;
+  content: '';
+  box-sizing: border-box;
+  -webkit-transition: 1.8s;
+  transition: 1.8s;
+  z-index: -1;
+  border-style: solid;
+  border-width: 0 0 0 0;
+  border-color: transparent transparent transparent #ffffff;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  /*opacity: 1;*/
+}
+
+.index-biosection .index-biosection-btn:hover:before {
+  border-width: 165px 0 0 165px;
+}
+
+.index-biosection .index-biosection-btn:after {
+  position: absolute;
+  content: '';
+  box-sizing: border-box;
+  -webkit-transition: 1.8s;
+  transition: 1.8s;
+  z-index: -1;
+  border-style: solid;
+  border-width: 0 0 0 0;
+  border-color: transparent #ffffff transparent transparent;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+}
+
+.index-biosection .index-biosection-btn:hover:after {
+  border-width: 0 165px 165px 0;
+}
+
+.index-biosection .index-biosection-btn{
+  margin-left: 180px;
+  color: #ffffff;
+  transition: color 0.3s ease,
+  background 0s ease;
+  position: absolute;
+}
+
+.index-biosection .index-biosection-btn:hover {
+  margin-left: 180px;
+  color: #f4c4c7;
+  transition: color 0.3s ease,
+  background 0s 0.3s ease;
+}
+
 .index-release{
 	/*height: 1388px;*/
 	/*width: 1375px;*/
@@ -569,6 +752,106 @@
 	height: 21.748%;
 	background: #8d97fa;
 	float: left;
+	position: relative;
+}
+
+.index-release .index-release-bg{
+	height: 100%;
+	width: 100%;
+}
+
+.index-release .index-release-bg img{
+	height: 100%;
+	width: 100%;
+}
+
+.index-release .index-release-title{
+	width: 23.41%;
+	height: 7.31%;
+	position: absolute;
+	top: 7.07%;
+	left: 38.46%;
+}
+
+.index-release .index-release-title img{
+	height: 100%;
+	width: 100%;
+}
+
+.index-release .index-release-text{
+	width: 47.06%;
+	color: #9d9d9d;
+	font-family: Montserrat Regular;
+	position: absolute;
+	left: 26.69%;
+	text-align: center;
+}
+
+.index-release .index-release-text-release-bg{
+	width: 64.24%;
+	height: 70.08%;
+	position: absolute;
+	top: 23.30%;
+	left: 17.85%;
+	background: #ffffff;
+	box-shadow:0 0 10px #c6c4c4;
+}
+
+.index-release .index-release-text-release-list{
+	position: absolute;
+	width: 54.90%;
+	height: 59.49%;
+	top: 29.22%;
+	left: 22.54%;
+}
+
+.index-release .index-release-text-release-list .release-item{
+	width: 44.44%;
+	height: 47.42%;
+	position: relative;
+	float: left;
+	margin-right: 2.25%;
+	margin-left: 2.88%;
+	margin-bottom: 6%;
+}
+
+.index-release .index-release-text-release-list .release-item .release-photo{
+	position: absolute;
+	width: 100%;
+	height: 86.06%;
+	background: #c8c8c8;
+	top: 0%;
+	left: 0%;
+}
+
+.index-release .index-release-text-release-list .release-item .release-line{
+	position: absolute;
+	width: 11.90%;
+	height: 0.61%;
+	background: #f4c4c7;
+	top: 92.41%;
+	left: 0%;
+}
+
+.index-release .index-release-text-release-list .release-item .release-song{
+	position: absolute;
+	left: 14.28%;
+	font-family: PlayfairDisplay Regular;
+}
+
+.index-release .index-release-text-release-list .release-item .release-singer{
+	position: absolute;
+	top: 95.13%;
+	left: 14.28%;
+	font-family: PlayfairDisplay Regular;
+	color: #9b9b9b;
+}
+
+.index-release .index-release-text-release-list .release-item .release-date{
+	position: absolute;
+	top: 91.59%;
+	left: 79.76%;
+	font-family: Montserrat Regular;
 }
 
 .index-blog{
@@ -578,6 +861,160 @@
 	height: 13.224%;
 	background: #f7f498;
 	float: left;
+	position: relative;
+}
+
+.index-blog .index-blog-bg{
+	width: 100%;
+	height: 100%;
+}
+
+.index-blog .index-blog-bg img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-blog .index-blog-title{
+	width: 6.15%;
+	height: 8.79%;
+	position: absolute;
+	top: 11.63%;
+	left: 71.76%;
+}
+
+.index-blog .index-blog-title img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-blog .index-blog-news{
+	width: 50.02%;
+	height: 57.60%;
+	position: absolute;
+	top: 21.00%;
+	left: 49.97%;
+}
+
+.index-blog .index-blog-news .news-item{
+	width: 100%;
+	height: 33.33%;
+	position: relative;
+	float: left;
+}
+
+.index-blog .index-blog-news .news-item .news-title{
+	position: absolute;
+	width: 56.56%;
+	text-align: center;
+	top: 27.09%;
+	left: 21.37%;
+	font-family: PlayfairDisplay Regular;
+}
+
+.index-blog .index-blog-news .news-item .news-time{
+	position: absolute;
+	width: 30.31%;
+	text-align: center;
+	top: 45.81%;
+	left: 34.12%;
+	font-family: Montserrat Regular;
+	color: #9b9b9b;
+}
+
+.index-blog .index-blog-news .news-item .news-about{
+	position: absolute;
+	width: 84.90%;
+	text-align: center;
+	top: 64.03%;
+	left: 8.24%;
+	font-family: Montserrat Regular;
+	color: #9c9c9c;
+}
+
+.index-blog .index-blog-news .news-item .news-line{
+	position: absolute;
+	width: 100%;
+	height: 0.49%;
+	top: 98%;
+	left: 0%;
+	background: #e2e2e2;
+}
+
+.index-blog .hbtn2 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  padding-top: 1.28%;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  border-radius:10px;
+  letter-spacing: 1px;
+  font-family: Montserrat Regular;
+  text-transform: uppercase;
+  color: #000000;
+  white-space: nowrap;
+  z-index: 0;
+  box-shadow:0 0 10px #d4d4d4;
+  background: #f4c4c7;
+  width: 10.62%;
+  height: 4.26%;
+}
+
+.index-blog .index-blog-btn:before {
+  position: absolute;
+  content: '';
+  box-sizing: border-box;
+  -webkit-transition: 1.8s;
+  transition: 1.8s;
+  z-index: -1;
+  border-style: solid;
+  border-width: 0 0 0 0;
+  border-color: transparent transparent transparent #ffffff;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  /*opacity: 1;*/
+}
+
+.index-blog .index-blog-btn:hover:before {
+  border-width: 0 0 165px 165px;
+}
+
+.index-blog .index-blog-btn:after {
+  position: absolute;
+  content: '';
+  box-sizing: border-box;
+  -webkit-transition: 1.8s;
+  transition: 1.8s;
+  z-index: -1;
+  border-style: solid;
+  border-width: 0 0 0 0;
+  border-color: transparent #ffffff transparent transparent;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+}
+
+.index-blog .index-blog-btn:hover:after {
+  border-width: 165px 165px 0 0;
+}
+
+.index-blog .index-blog-btn{
+  margin-left: 180px;
+  color: #ffffff;
+  transition: color 0.3s ease,
+  background 0s ease;
+  position: absolute;
+}
+
+.index-blog .index-blog-btn:hover {
+  margin-left: 180px;
+  color: #f4c4c7;
+  transition: color 0.3s ease,
+  background 0s 0.3s ease;
 }
 
 .index-connect{
@@ -585,8 +1022,181 @@
 	/*width: 1375px;*/
 	width: 100%;
 	height: 14.556%;
-	background: #fdc1f5;
 	float: left;
+	position: relative;
+}
+
+.index-connect .index-connect-title{
+	width: 15.80%;
+	height: 10.40%;
+	position: absolute;
+	top: 9.99%;
+	left: 42.06%;
+}
+
+.index-connect .index-connect-title img{
+	width: 100%;
+	height: 100%;
+}
+
+.index-connect .index-connect-about{
+	position: absolute;
+	width: 47.06%;
+	left: 27.43%;
+	top: 24.85%;
+	text-align: center;
+	font-family: Montserrat Regular;
+}
+
+.index-connect .index-connect-email-bg{
+	position: absolute;
+	width: 66.24%;
+	height: 54.67%;
+	top: 35.38%;
+	left: 16.85%;
+	box-shadow:0 0 10px #cacaca;
+}
+
+.index-connect .index-connect-message{
+	position: absolute;
+	width: 62.28%;
+	height: 14.60%;
+	top: 41.13%;
+	left: 20.80%;
+}
+
+.index-connect .index-connect-message .message-item{
+	position: relative;
+	width: 43.65%;
+	height: 50%;
+	float: left;
+	margin-right: 5.90%;
+}
+
+.index-connect .index-connect-message .message-item .message-item-text{
+	position: absolute;
+	font-family: Montserrat Regular;
+	color: #9e9e9e;
+	width: 20.81%;
+	top: 58.53%;
+	left: 0%;
+}
+
+.index-connect .index-connect-message .message-item .message-item-line{
+	position: absolute;
+	width: 100%;
+	height: 2.24%;
+	top: 92%;
+	left: 0%;
+	background: #000000;
+}
+
+.index-connect .message-line{
+	position: absolute;
+	width: 58.39%;
+	height: 0.16%;
+	top: 75.18%;
+	left: 20.80%;
+	background: #000000;
+}
+
+.index-connect .message-text{
+	position: absolute;
+	width: 58.39%;
+	top: 61.01%;
+	left: 20.80%;
+	font-family: Montserrat Regular;
+	color: #9e9e9e;
+}
+
+.index-connect .hbtn3 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  padding-top: 1.28%;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  border-radius:10px;
+  letter-spacing: 1px;
+  font-family: Montserrat Regular;
+  text-transform: uppercase;
+  color: #000000;
+  white-space: nowrap;
+  z-index: 0;
+  box-shadow:0 0 10px #d4d4d4;
+  background: #f4c4c7;
+  width: 10.62%;
+  height: 4.26%;
+}
+
+.index-connect .index-connect-btn:before {
+  position: absolute;
+  content: '';
+  background: #ffffff;
+  transition-duration: .3s;
+  z-index: -1;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  opacity: 1;
+}
+
+.index-connect .index-connect-btn:hover:before {
+  height: 50%;
+}
+
+.index-connect .index-connect-btn:after {
+  position: absolute;
+  content: '';
+  background: #ffffff;
+  transition-duration: .3s;
+  z-index: -1;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  height: 0;
+  opacity: 1;
+}
+
+.index-connect .index-connect-btn:hover:after {
+  height: 50%;
+}
+
+.index-connect .index-connect-btn{
+  margin-left: 180px;
+  color: #ffffff;
+  transition: color 0.3s ease,
+  background 0s ease;
+  position: absolute;
+}
+
+.index-connect .index-connect-btn:hover {
+  margin-left: 180px;
+  color: #f4c4c7;
+  transition: color 0.3s ease,
+  background 0s 0.3s ease;
+}
+
+.index-connect .index-connect-follow{
+	position: absolute;
+	width: 9.81%;
+	top: 95.24%;
+	font-family: Montserrat Regular;
+	color: #a2a2a2;
+	text-align: center;
+}
+
+.index-connect .index-connect-follow a{
+	font-family: Montserrat Bold;
+	color: #000000;
+	display: inline-block;
+	text-decoration:underline;
 }
 
 .index-instagram{
@@ -594,8 +1204,18 @@
 	/*width: 1375px;*/
 	height: 5.029%;
 	width: 100%;
-	background: #f8a8dd;
+	position: relative;
 	float: left;
+}
+
+.index-instagram .index-instagram-bg{
+	height: 100%;
+	width: 100%;
+}
+
+.index-instagram .index-instagram-bg img{
+	height: 100%;
+	width: 100%;
 }
 
 .public-footer{
